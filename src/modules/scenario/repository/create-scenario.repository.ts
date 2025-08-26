@@ -6,7 +6,7 @@ import { PrismaService } from "src/shared/database.ts/prisma.database";
 
 @Injectable()
 export class CreateScenarioRepositiory{
-    cosntructor(private readonly prisma: PrismaService){}
+    constructor(private readonly prisma : PrismaService){}
 
 
 
